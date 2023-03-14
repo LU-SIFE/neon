@@ -1,8 +1,23 @@
-root:: {
-	padding: 0;
+html {
+	background-color: #1f1f1f;
+	color: white;
+	font-family: Courier New;
+}
+
+body {
 	margin: 0;
 }
 
-html {
-	background-color: #1f1f1f;
+nav {
+	display: flex;
+	border-bottom-style: solid;
+	padding: 10px;
+}
+
+nav li {
+	list-style: none;
+	margin: auto;
+	background-color: #0f0f0f;
+	width: 30%;
+	text-align: center;
 }
